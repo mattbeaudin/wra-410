@@ -1,0 +1,76 @@
+/*** Colors ***/
+$primary-color: #3700b3;
+$secondary-color: #bb86fc;
+$header-color: #fff;
+$text-color: #ccc;
+$link-color: #00bcd4;
+$box-shadow-small: 0 2px 6px 0 rgb(0 0 0 / 25%);
+$box-shadow-large: 0 4px 8px 0 rgb(0 0 0 / 25%);
+
+/*** Font ***/
+@import url('https://fonts.googleapis.com/css?family=Nunito|Raleway');
+$font-family-header: 'Nunito', sans-serif;
+$font-family-body: 'Raleway', sans-serif;
+$font-weight: 400;
+$line-height: 1.4;
+
+/*** Misc ***/
+$border-radius-default: 4px;
+
+/*** Icons ***/
+$icon-font-size: 4rem;
+$icon-font-color: #fff;
+
+/*** Page Colors ***/
+$dark-font-color: #fefefe;
+$dark-bg-color: #121212;
+$background-color: $dark-bg-color;
+$content-background: $dark-bg-color;
+
+/*** Card ***/
+$card-background: mix($primary-color, $dark-bg-color, 5%);
+
+/*** Buttons ***/
+$button-font-size: 1rem;
+$button-padding: 10px 30px;
+$button-primary-background: $primary-color;
+$button-primary-color: #fff;
+$button-secondary-background: $secondary-color;
+$button-secondary-color: #fff;
+
+/*** Forms ***/
+$form-control-border: 1px solid $text-color;
+$form-control-color: $text-color;
+$form-control-focus-color: $secondary-color;
+
+/*** Nav Bar ***/
+$navbar-height: 80px;
+$navbar-background: linear-gradient(45deg, $primary-color, $secondary-color);
+$navbar-link-color: #fff;
+$navbar-link-active-color: #fff;
+$navbar-font-family: $font-family-header;
+$navbar-link-size: 1.75rem;
+$navbar-link-weight: 200;
+$navbar-title-color: $navbar-link-active-color;
+$navbar-title-size: 2.5rem;
+$navbar-title-weight: $navbar-link-weight;
+
+$navbar-toggle-border-color: #fff;
+$navbar-toggle-background: transparent;
+
+/*** Footer ***/
+$footer-background: lighten($dark-bg-color, 2%);
+$footer-height: 325px;
+
+/*** Transitions ***/
+$transition-duration: 250ms;
+
+/*** Grid ***/
+$grid-columns: 12 !default;
+$grid-gutter-width: 1rem !default;
+$grid-outer-margin: 2rem !default;
+$grid-breakpoints:
+  s 48em 46rem,
+  m 62em 61rem,
+  l 75em 71rem !default;
+$grid-max-width: 75em !default;
